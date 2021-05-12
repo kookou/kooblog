@@ -1,12 +1,12 @@
 ---
 template: post
 title: Automatically add friends to Facebook
-slug: /posts/add-friends-fb
+slug: /sample/add-friends-fb
 draft: false
 priority: 0
 date: 2018-08-08T01:14:45.562Z
 description: Adds people with more than 10 common friends.
-category: automation
+category: sample
 tags:
   - facebook
   - javascript
@@ -29,10 +29,10 @@ var addFriendsCount = 100
 var addPause = 3 * 1000
 
 function waitForScroll() {
-  return new Promise(function(resolve, reject) {
+  return new Promise(function (resolve, reject) {
     var it = 0
     var interval = window.setInterval(
-      function() {
+      function () {
         console.log('Wait...')
         if (it++ > 15) {
           window.clearInterval(interval)
@@ -46,14 +46,14 @@ function waitForScroll() {
   })
 }
 
-waitForScroll().then(function() {
+waitForScroll().then(function () {
   var added = 0
   var addFriends = document.querySelectorAll(
     '#fbSearchResultsBox li.friendBrowserListUnit'
   )
   addFriends = Array.prototype.slice.call(addFriends).reverse()
 
-  var clickInterval = window.setInterval(function() {
+  var clickInterval = window.setInterval(function () {
     if (!addFriends.length || added++ == addFriendsCount) {
       window.clearInterval(clickInterval)
       return
