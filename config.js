@@ -20,8 +20,8 @@ module.exports = {
     }
   ],
   author: {
-    name: 'Marat Dospolov',
-    photo: '/photo.jpg',
+    name: 'Park Hye Jung',
+    photo: '/imoge.jpg',
     bio: 'Developer. Optimizer. Learner.',
     contacts: {
       // don't remove fields, just make them empty string ''
