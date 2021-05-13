@@ -1,22 +1,22 @@
 {
   "header": {
     "name": "PARK HYE JUNG",
-    "position": "JAVASCRIPT TECH LEADER",
+    "position": "초보개발자",
     "img": {
       "src": "/imoge.jpg",
       "alt": "Park Hye Jung"
     },
-    "location": "Ukraine, Kyiv",
+    "location": "Seoul, Korea",
     "contacts": [
       {
-        "type": "telegram",
-        "link": "https://t.me/dospolov",
-        "linkName": "dospolov"
+        "type": "email",
+        "name": "nnaangee@gmail.com",
+        "linkName": "nnaangee@gmail.com"
       },
       {
         "type": "github",
-        "link": "https://github.com/dospolov",
-        "linkName": "dospolov"
+        "link": "https://github.com/kookou",
+        "linkName": "https://github.com/kookou"
       }
     ]
   },

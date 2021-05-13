@@ -4,9 +4,9 @@ module.exports = {
   title: 'Blog by Park Hye Jung',
   keywords:
     'account surfer, trello bookmark, trello, productivity, javascript, Marat Dospolov, choosy windows, browser selector',
-  subtitle: 'Developer. Optimizer. Learner.',
+  subtitle: '초보 개발자',
   copyright: '© 2020 | Kyiv, Ukraine',
-  disqusShortname: 'dospolov',
+  disqusShortname: 'kookou',
   postsPerPage: 20,
   googleAnalyticsId: 'UA-6589522-7',
   menu: [
@@ -22,17 +22,17 @@ module.exports = {
   author: {
     name: 'Park Hye Jung',
     photo: '/imoge.jpg',
-    bio: 'Developer. Optimizer. Learner.',
+    bio: '초보 개발자',
     contacts: {
       // don't remove fields, just make them empty string ''
       // https://github.com/gatsbyjs/gatsby/issues/2392
-      github: 'dospolov',
+      github: 'kookou',
       twitter: 'marat_dospolov',
       linkedin: 'dospolov',
       telegram: 'dospolov',
       instagram: 'dospolov',
       facebook: 'dospolov',
-      email: '',
+      email: 'nnaangee@gmail.com',
       rss: '/rss.xml'
     }
   }

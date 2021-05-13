@@ -6,7 +6,7 @@ const Comments = ({ postTitle, postSlug }) => {
   const { url, disqusShortname } = useSiteMetadata()
 
   if (!disqusShortname) {
-    return null
+    return 'kookou'
   }
 
   return (
