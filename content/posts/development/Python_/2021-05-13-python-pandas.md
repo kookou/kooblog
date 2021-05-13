@@ -1,17 +1,17 @@
 ---
 template: post
-title: Python
-slug: /development/Python
+title: Python 정규 표현식과 Pandas 기초
+slug: /development/Python_/2021-05-13-python-pandas
 draft: false
 priority: 0
 date: 2021-05-12T22:22:02.039Z
 description: |-
   If you faced with scrolling issues in Chrome - disable this flag 
   ```chrome://flags/#disable-threaded-scrolling```
-category: development
+category: Python
 tags:
-  - Python
-  - Pandas
+  - python
+  - pandas
 ---
 
 ### python pandas 기초

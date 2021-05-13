@@ -1,6 +1,6 @@
 ---
 template: post
-title: Gatsby 에 Disqus 을 사용하여 댓글 붙이기
+title: Gatsby에 Disqus을 적용하여 댓글 붙이기
 slug: /blog/2021-05-13-gatsby-disqus
 draft: false
 priority: 0

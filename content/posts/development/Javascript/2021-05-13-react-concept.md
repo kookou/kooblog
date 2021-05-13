@@ -1,16 +1,16 @@
 ---
 template: post
-title: React
-slug: /development/Javascript/React
+title: React개념과 extensions
+slug: /development/Javascript/2021-05-13-react-concept
 draft: false
 priority: 0
 date: 2021-05-12T22:22:02.039Z
 description: |-
   If you faced with scrolling issues in Chrome - disable this flag 
   ```chrome://flags/#disable-threaded-scrolling```
-category: development
+category: React
 tags:
-  - React
+  - react
 ---
 
 ### React

@@ -1,16 +1,16 @@
 ---
 template: post
 title: Eclipse 세팅
-slug: /setting/eclipse
+slug: /Setting/eclipse
 draft: false
 priority: 0
 date: 2021-05-12T22:22:02.039Z
 description: |-
   If you faced with scrolling issues in Chrome - disable this flag 
   ```chrome://flags/#disable-threaded-scrolling```
-category: setting
+category: Setting
 tags:
-  - Eclipse
+  - eclipse
   - SVN
 ---
 
