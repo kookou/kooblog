@@ -6,7 +6,7 @@ module.exports = {
     'account surfer, trello bookmark, trello, productivity, javascript, Marat Dospolov, choosy windows, browser selector',
   subtitle: '초보 개발자',
   copyright: '© 2020 | Kyiv, Ukraine',
-  disqusShortname: 'kookou',
+  disqusShortname: 'kooblog',
   postsPerPage: 20,
   googleAnalyticsId: 'UA-6589522-7',
   menu: [

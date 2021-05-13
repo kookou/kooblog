@@ -1,6 +1,6 @@
 ---
 template: post
-title: Gatsby 에 Disqus 등록하기
+title: Gatsby 에 Disqus 을 사용하여 댓글 붙이기
 slug: /blog/2021-05-13-gatsby-disqus
 draft: false
 priority: 0
@@ -8,20 +8,22 @@ date: 2021-05-12T22:22:02.039Z
 description:
 category: Blog
 tags:
-  - Disqus
-  - Gatsby
-  - React
+  - disqus
+  - gatsby
+  - react
 ---
 
-## Disqus 공식
+## [Disqus 공식홈](https://disqus.com/)
 
-### 웹 사이트 디렉토리에서 다음 명령을 실행 하여 gatsby-plugin-disqus플러그인을 npm 과 함께 종속성으로 설치하십시오.
+**적용방법**
+
+웹 사이트 디렉토리에서 다음 명령을 실행 하여 gatsby-plugin-disqus플러그인을 npm 과 함께 종속성으로 설치하십시오.
 
 ```cmd
 npm install --save gatsby-plugin-disqus
 ```
 
-### gatsby-config.js 에 Disqus 단축 이름으로 파일에 플러그인을 추가하십시오 .
+gatsby-config.js 에 Disqus 단축 이름으로 파일에 플러그인을 추가하십시오 .
 
 ```react
 // gatsby-config.js
@@ -37,7 +39,7 @@ module.exports = {
 }
 ```
 
-### 그런 다음 플러그인을 사용하여 다음 예제와 같이 페이지에 Disqus 주석 섹션을 배치 할 수 있습니다.
+그런 다음 플러그인을 사용하여 다음 예제와 같이 페이지에 Disqus 주석 섹션을 배치 할 수 있습니다.
 
 ```react
 import { Disqus } from 'gatsby-plugin-disqus';

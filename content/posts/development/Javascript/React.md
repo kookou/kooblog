@@ -1,7 +1,7 @@
 ---
 template: post
 title: React
-slug: /development/React
+slug: /development/Javascript/React
 draft: false
 priority: 0
 date: 2021-05-12T22:22:02.039Z

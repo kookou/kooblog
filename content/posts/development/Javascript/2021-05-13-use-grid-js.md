@@ -1,26 +1,19 @@
 ---
 template: post
-title: Javascript
-slug: /development/Javascript
+title: Grid.js 사용법 과 예제
+slug: /development/Javascript/2021-05-13-use-grid-js
 draft: false
 priority: 0
 date: 2021-05-12T22:22:02.039Z
 description: |-
   If you faced with scrolling issues in Chrome - disable this flag 
   ```chrome://flags/#disable-threaded-scrolling```
-category: development
+category: Javascript
 tags:
-  - Javascript
-  - Jquery
+  - javascript
+  - jquery
+  - grid.js
 ---
-
-### kendo-ui
-
-https://www.telerik.com/kendo-ui
-
-### jQuery
-
-http://www.devkuma.com/books/3
 
 ### Grid.js
 

@@ -6,12 +6,12 @@ const Comments = ({ postTitle, postSlug }) => {
   const { url, disqusShortname } = useSiteMetadata()
 
   if (!disqusShortname) {
-    return 'kookou'
+    return 'koobog'
   }
 
   return (
     <ReactDisqusComments
-      shortname={disqusShortname}
+      shortname="kooblog"
       identifier={postTitle}
       title={postTitle}
       url={url + postSlug}

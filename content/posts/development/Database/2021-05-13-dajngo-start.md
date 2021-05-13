@@ -1,7 +1,7 @@
 ---
 template: post
-title: Django
-slug: /development/Django
+title: Django 개념과 기본 명령어
+slug: /development/Database/2021-05-13-dajngo-start
 draft: false
 priority: 0
 date: 2021-05-12T22:22:02.039Z

@@ -1,14 +1,14 @@
 ---
 template: post
-title: Database
-slug: /development/Databasese
+title: Mysql 기본 명령어
+slug: /development/Database/2021-05-13-mysql-commend
 draft: false
 priority: 0
 date: 2021-05-12T22:22:02.039Z
 description: |-
   If you faced with scrolling issues in Chrome - disable this flag 
   ```chrome://flags/#disable-threaded-scrolling```
-category: development
+category: Mysql
 tags:
   - mysql
   - database
