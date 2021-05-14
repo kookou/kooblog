@@ -1,7 +1,7 @@
 ---
 template: post
 title: Python 정규 표현식과 Pandas 기초
-slug: /development/Python_/2021-05-13-python-pandas
+slug: /development/Python/2021-05-13-python-pandas
 draft: false
 priority: 0
 date: 2021-05-12T22:22:02.039Z

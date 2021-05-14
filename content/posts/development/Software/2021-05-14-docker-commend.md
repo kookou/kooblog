@@ -1,16 +1,17 @@
 ---
 template: post
-title: Docker
-slug: /development/Docker
+title: 초보를 위한 Docker 세팅과 명령어
+slug: /development/Software/2021-05-14-docker-commend
 draft: false
 priority: 0
 date: 2021-05-12T22:22:02.039Z
 description: |-
   If you faced with scrolling issues in Chrome - disable this flag 
   ```chrome://flags/#disable-threaded-scrolling```
-category: development
+category: Software
 tags:
-  - Docker
+  - docker
+  - server
 ---
 
 #### 초보를 위한 도커 안내서

@@ -1,14 +1,14 @@
 ---
 template: post
 title: Anaconda 가상환경 생성
-slug: /Setting/Anaconda
+slug: development/Python/2021-05-12-anaconda-setting
 draft: false
 priority: 0
 date: 2021-05-12T22:22:02.039Z
 description: |-
   If you faced with scrolling issues in Chrome - disable this flag 
   ```chrome://flags/#disable-threaded-scrolling```
-category: Setting
+category: Python
 tags:
   - anaconda
 ---

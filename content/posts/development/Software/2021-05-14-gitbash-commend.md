@@ -1,16 +1,16 @@
 ---
 template: post
-title: Gitbash
-slug: /development/Gitbash
+title: Gitbash 명령어
+slug: /development/Software/2021-05-14-gitbash-commend
 draft: false
 priority: 0
 date: 2021-05-12T22:22:02.039Z
 description: |-
   If you faced with scrolling issues in Chrome - disable this flag 
   ```chrome://flags/#disable-threaded-scrolling```
-category: development
+category: Software
 tags:
-  - Gitbash
+  - Git
 ---
 
 ### git bash 명렁어

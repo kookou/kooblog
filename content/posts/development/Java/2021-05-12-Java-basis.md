@@ -1,7 +1,7 @@
 ---
 template: post
-title: Java
-slug: /development/Java/2021-05-12-Java
+title: '[자바 기초 [TCP School.com]](http://www.tcpschool.com/java/intro)'
+slug: /development/Java/2021-05-12-Java-basis
 draft: false
 priority: 0
 date: 2021-05-12T22:22:02.039Z
@@ -10,14 +10,5 @@ description: |-
   ```chrome://flags/#disable-threaded-scrolling```
 category: Java
 tags:
-  - Java
+  - java
 ---
-
-### Java 기초
-
-[TCP School.com](http://www.tcpschool.com/java/intro)
-
-### 로깅
-
-SLF4J란?  
-[차근차근](https://enai.tistory.com/36)
