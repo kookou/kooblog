@@ -8,7 +8,7 @@ html {
 }
 
 body {
-  font-size: 1.4rem;
+  /*font-size: 1.4rem;*/
   font-weight: 400;
   line-height: 1.75;
   color: #333;
@@ -27,9 +27,12 @@ a:hover {
 }
 
 code {
-  padding: 0px 7px;
   background: #f1f1f1;
+  padding: 2px 6px;
+  border-radius: 4px;
   display: -webkit-inline-box;
+  /*border: 1px solid #ede7f3;
+  */
 }
 
 img {
@@ -81,7 +84,7 @@ img {
 }
 
 .post {
-  padding: 5% 7% 0%;
+  padding: 4% 7% 0%;
 }
 
 .post.post-featured {
@@ -151,4 +154,19 @@ img {
 
 .text-5xl {
   font-size: 25px !important;
+}
+
+.p-10 {
+  padding: 3% 4% 2% 4% !important;
+}
+
+.ant-tag {
+  margin: 3px !important;
+}
+.pre {
+  padding: 16px;
+}
+
+.back {
+  font-size: 15px;
 }
