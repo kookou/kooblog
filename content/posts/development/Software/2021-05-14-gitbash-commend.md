@@ -10,7 +10,7 @@ description: |-
   ```chrome://flags/#disable-threaded-scrolling```
 category: Software
 tags:
-  - Git
+  - git
 ---
 
 ### git bash 명렁어

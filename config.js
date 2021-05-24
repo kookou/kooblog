@@ -1,7 +1,7 @@
 module.exports = {
   url: 'https://gatsby-starter-blog-and-cv.netlify.app',
   pathPrefix: '/',
-  title: 'Blog by Park Hye Jung',
+  title: 'Blog by kookou',
   keywords:
     'account surfer, trello bookmark, trello, productivity, javascript, Marat Dospolov, choosy windows, browser selector',
   subtitle: '초보 개발자',

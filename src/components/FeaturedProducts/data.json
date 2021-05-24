@@ -1,14 +1,14 @@
 [
   {
-    "name": "Account Surfer",
-    "logo": "/logos/as.svg",
-    "description": "Quickly switch between accounts and browsers.",
-    "link": "/posts/handle-chrome-profiles-with-account-surfer"
+    "name": "Disqus사용하기",
+    "logo": "/logos/disqus-social-icon.png",
+    "description": "Gatsby에 Disqus을 적용하여 댓글 붙이기",
+    "link": "/blog/2021-05-13-gatsby-disqus"
   },
   {
-    "name": "Trello Bookmark",
-    "logo": "/logos/trello-bookmark.svg",
-    "description": "Store your bookmarks as Trello Cards.",
-    "link": "/posts/trello-plus-gtd-equals-trello-bookmark"
+    "name": "Markdown문법",
+    "logo": "/logos/markdown.png",
+    "description": "Git Blog Post 작성을 위한 Markdown문법",
+    "link": "/blog/2021-05-13-gatsby-blog-markdown"
   }
 ]
