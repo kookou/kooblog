@@ -34,7 +34,7 @@ const Post = ({ post, allCategories }) => {
         <Content body={html} title={title} date={date} externalLink={externalLink} />
       </div>
 
-      <div className="">
+      <div className="tag_and_categories">
         <Link to={categorySlug} className="">
           <Tag
             className={`bg-${categoryColor} text-white border-transparent cursor-pointer`}

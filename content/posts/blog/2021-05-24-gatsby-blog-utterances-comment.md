@@ -41,65 +41,66 @@ Discus 너무한다 방문자하나 없는 블로그에 광고가 댓글 위아�
 - **블로그에 반영하기**  
   ![](meida/../../../../static/media/utterances/03.jpg)  
   Theme : Utterances의 테마를 정한다. 어떤 테마인지는 선택해보면 하단 댓글창을 통해 확인할 수 있다.  
-  Enable Utterances : 원하는 Label (깃 이슈 라벨) 명칭과 Theme (테마)을 선택하고 Copy 버튼을 클릭하여 댓글이 들어가길 원하는 위치에 붙여 넣어 주면 된다.
+  Enable Utterances : 원하는 Label (깃 이슈 라벨) 명칭과 Theme (테마)을 선택하고 Copy 버튼을 클릭하여  
+  댓글이 들어가길 원하는 위치에 붙여 넣어 주면 된다.
 
-- **하지만 React를 사용한다면?**  
-   gatsby 는 React 기반이므로~ 다음과 같은 Utterances 컴포넌트를 작성한다.
+### **React를 사용한다면?**
 
-  ```
-  import React, { createRef, useLayoutEffect } from 'react';
+gatsby 는 React 기반이므로~ 다음과 같은 Utterances 컴포넌트를 작성한다.
 
-  const src = 'https://utteranc.es/client.js';
+```
+import React, { createRef, useLayoutEffect } from 'react';
 
-  export interface IUtterancesProps {
-  repo: string;
-  theme: string;
-  }
+const src = 'https://utteranc.es/client.js';
 
-  const Utterances: React.FC<IUtterancesProps> = React.memo(({ repo, theme }) => {
-  const containerRef = createRef<HTMLDivElement>();
+export interface IUtterancesProps {
+repo: string;
+theme: string;
+}
 
-  useLayoutEffect(() => {
-  const utterances = document.createElement('script');
+const Utterances: React.FC<IUtterancesProps> = React.memo(({ repo, theme }) => {
+const containerRef = createRef<HTMLDivElement>();
 
-        const attributes = {
-        src,
-        repo,
-        theme,
-        'issue-term': 'pathname',
-        label: '✨💬 comments ✨',
-        crossOrigin: 'anonymous',
-        async: 'true',
-        };
+useLayoutEffect(() => {
+const utterances = document.createElement('script');
 
-        Object.entries(attributes).forEach(([key, value]) => {
-        utterances.setAttribute(key, value);
-        });
+      const attributes = {
+      src,
+      repo,
+      theme,
+      'issue-term': 'pathname',
+      label: '✨💬 comments ✨',
+      crossOrigin: 'anonymous',
+      async: 'true',
+      };
 
-        containerRef.current!.appendChild(utterances);
+      Object.entries(attributes).forEach(([key, value]) => {
+      utterances.setAttribute(key, value);
+      });
 
-  }, [repo]);
+      containerRef.current!.appendChild(utterances);
 
-  return <div ref={containerRef} />;
-  });
+}, [repo]);
 
-  Utterances.displayName = 'Utterances';
+return <div ref={containerRef} />;
+});
 
-  export default Utterances;
-  ```
+Utterances.displayName = 'Utterances';
 
-  이후에 Utterances 컴포넌트를 호출하여 원하는 위치에 삽입하면 끝 !
+export default Utterances;
+```
 
-  ```
-  ...
-  <Utterances repo='kookou/blogcomment' theme='github-light' />
-  ```
+이후에 Utterances 컴포넌트를 호출하여 원하는 위치에 삽입하면 끝 !
+
+```
+...
+<Utterances repo='kookou/blogcomment' theme='github-light' />
+```
 
 - **완성**
   ![](meida/../../../../static/media/utterances/04.jpg)
 
 참고
 
-Gatsby 블로그 - utterances 소셜 댓글 기능 도입하기 [Blausee](https://wwlee94.github.io/category/blog/getting-started-utterances/)
-
+Gatsby 블로그 - utterances 소셜 댓글 기능 도입하기 [Blausee](https://wwlee94.github.io/category/blog/getting-started-utterances/)  
 [Github 블로그] utterances 으로 댓글 기능 만들기 (+ disqus 비추후기) [공부하는 식빵맘](https://ansohxxn.github.io/blog/utterances/)

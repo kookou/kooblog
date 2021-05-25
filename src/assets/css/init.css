@@ -23,7 +23,7 @@ a {
 }
 
 a:hover {
-  color: #a763ff;
+  color: rgb(219, 143, 185);
 }
 
 code {
@@ -37,7 +37,7 @@ code {
 
 img {
   max-width: 100%;
-  max-height: 400px;
+  /*max-height: 400px;*/
 }
 
 .ant-layout-sider {
@@ -197,5 +197,11 @@ hr {
 }
 
 .gatsby-resp-image-wrapper {
-  margin: 0;
+  margin-left: 0 !important;
+  margin-top: 10px;
+  margin-bottom: 15x;
+}
+
+.tag_and_categories {
+  margin-top: 40px;
 }

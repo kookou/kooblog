@@ -1,9 +1,9 @@
 [
   {
-    "name": "Disqus사용하기",
-    "logo": "/logos/disqus-social-icon.png",
-    "description": "Gatsby에 Disqus을 적용하여 댓글 붙이기",
-    "link": "/blog/2021-05-13-gatsby-disqus"
+    "name": "Utterances로 블로그 댓글 사용하기",
+    "logo": "/logos/utterances.png",
+    "description": "Gatsby blog에 Disqus대신 Utterances 사용하기",
+    "link": "/blog/2021-05-24-gatsby-blog-utterances-comment"
   },
   {
     "name": "Markdown문법",
