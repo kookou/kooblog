@@ -5,17 +5,17 @@ import { PAGINATION } from '../../constants'
 
 const Pagination = ({ prevPagePath, nextPagePath, hasNextPage, hasPrevPage }) => {
   return (
-    <Row>
+    <Row className="pagnation">
       <Col span={12}>
         {hasPrevPage && (
-          <Link rel="prev" to={prevPagePath} className="">
+          <Link rel="prev" to={prevPagePath} className="pagenation_pre">
             {PAGINATION.PREV_PAGE}
           </Link>
         )}
       </Col>
       <Col span={12} className="text-right">
         {hasNextPage && (
-          <Link rel="next" to={nextPagePath} className="">
+          <Link rel="next" to={nextPagePath} className="pagenation_next">
             {PAGINATION.NEXT_PAGE}
           </Link>
         )}

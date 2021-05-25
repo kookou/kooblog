@@ -28,7 +28,7 @@ const FeaturedProducts = () => {
                   alt=""
                   width="50"
                   color="white"
-                  className="mt-2"
+                  className="featured_img"
                 />
               </Col>
               <Col xs={20} sm={18} md={18} lg={19} xl={19}>

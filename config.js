@@ -5,7 +5,7 @@ module.exports = {
   keywords:
     'account surfer, trello bookmark, trello, productivity, javascript, Marat Dospolov, choosy windows, browser selector',
   subtitle: '초보 개발자',
-  copyright: '© 2020 | Kyiv, Ukraine',
+  copyright: '© 2021 | kookou / Park Hye Jung',
   disqusShortname: 'kooblog',
   postsPerPage: 20,
   googleAnalyticsId: 'UA-6589522-7',

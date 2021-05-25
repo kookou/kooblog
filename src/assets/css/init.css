@@ -26,15 +26,6 @@ a:hover {
   color: rgb(219, 143, 185);
 }
 
-code {
-  background: #f1f1f1;
-  padding: 2px 6px;
-  border-radius: 2px;
-  display: -webkit-inline-box;
-  /* margin-left: 20px;*/
-  /*border: 10px solid #f1f1f1;*/
-}
-
 img {
   max-width: 100%;
   /*max-height: 400px;*/
@@ -89,7 +80,7 @@ img {
 
 .post.post-featured {
   margin: 5px 0;
-  background: #fff;
+  background: rgb(245, 245, 245);
 }
 
 .featured-product {
@@ -102,7 +93,7 @@ img {
 }
 
 .post .poster {
-  box-shadow: 0 0 0 3px #97266d33;
+  box-shadow: 0 0 0 1px #79797933;
 }
 
 .work-experience img {
@@ -204,4 +195,56 @@ hr {
 
 .tag_and_categories {
   margin-top: 40px;
+}
+
+.pagenation_next {
+  font-size: 15px;
+  font-weight: 600;
+  margin-right: 83px;
+  margin-top: 20px;
+}
+.pagenation_pre {
+  font-size: 15px;
+  font-weight: 600;
+  margin-left: 83px;
+  margin-top: 20px;
+}
+
+.post.post-featured a {
+  /* color: #200444 !important;*/
+}
+.post img {
+  max-height: 100px;
+  display: block;
+  margin: 0px auto;
+}
+
+.featured_img {
+  display: block;
+  margin: 0px auto;
+  margin-top: 10px;
+}
+.pagnation {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+div.container code > div.line-number::before {
+  color: #4f5672 !important;
+}
+
+div.line-number::before > span {
+  font-size: 1.4rem;
+}
+
+code {
+  font-size: 1.4rem !important;
+}
+div.carbon > div.red {
+  border: 0px !important;
+}
+div.carbon > div.yellow {
+  border: 0px !important;
+}
+div.carbon > div.green {
+  border: 0px !important;
 }
