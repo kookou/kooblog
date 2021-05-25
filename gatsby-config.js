@@ -100,11 +100,9 @@ module.exports = {
             options: { maxWidth: 960 }
           },
           {
-            resolve: `gatsby-remark-highlight-code`,
+            resolve: `gatsby-remark-vscode`,
             options: {
-              terminal: 'carbon',
-              theme: 'dracula',
-              lineNumbers: true
+              theme: `Dark (Visual Studio)`
             }
           },
           {

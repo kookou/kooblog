@@ -1,8 +1,9 @@
 import React from 'react'
 import dayjs from 'dayjs'
 import { SelectOutlined } from '@ant-design/icons'
-import { defineCustomElements as deckDeckGoHighlightElement } from '@deckdeckgo/highlight-code/dist/loader'
-deckDeckGoHighlightElement()
+import 'gatsby-remark-vscode/styles.css'
+//import { defineCustomElements as deckDeckGoHighlightElement } from '@deckdeckgo/highlight-code/dist/loader'
+//deckDeckGoHighlightElement()
 // import readingTime from 'reading-time'
 
 const Content = ({ body, title, date, externalLink }) => (

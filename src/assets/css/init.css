@@ -148,7 +148,7 @@ img {
 }
 
 .p-10 {
-  padding: 3% 4% 2% 4% !important;
+  padding: 3% 16% 2% 8% !important;
 }
 
 .ant-tag {
@@ -228,17 +228,7 @@ hr {
   margin-top: 30px;
   margin-bottom: 20px;
 }
-div.container code > div.line-number::before {
-  color: #4f5672 !important;
-}
 
-div.line-number::before > span {
-  font-size: 1.4rem;
-}
-
-code {
-  font-size: 1.4rem !important;
-}
 div.carbon > div.red {
   border: 0px !important;
 }
@@ -247,4 +237,57 @@ div.carbon > div.yellow {
 }
 div.carbon > div.green {
   border: 0px !important;
+}
+table {
+  display: table !important;
+  border-collapse: separate !important;
+  box-sizing: border-box !important;
+  text-indent: initial !important;
+  border-spacing: 2px !important;
+  /*border-color: grey !important;*/
+  margin-bottom: 30px !important;
+}
+thead {
+  display: table-header-group;
+  vertical-align: middle;
+  border-color: inherit;
+  background-color: rgb(245, 245, 245);
+}
+
+tr {
+  /* border-top: 1px solid rgb(204, 204, 204);*/
+  margin: 0px;
+  padding: 0px;
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}
+
+th {
+  font-weight: bold;
+  /*border: 1px solid rgb(204, 204, 204);*/
+  text-align: left;
+  margin: 0px;
+  padding: 6px 13px;
+  display: table-cell;
+  vertical-align: inherit;
+}
+td {
+  /*border: 1px solid rgb(204, 204, 204);*/
+  text-align: left;
+  margin: 0px;
+  padding: 6px 13px;
+}
+
+table tr th:first-child,
+table tr td:first-child {
+  margin-top: 0px;
+}
+tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+table tr:nth-child(2n) {
+  background-color: rgb(245, 245, 245);
 }
