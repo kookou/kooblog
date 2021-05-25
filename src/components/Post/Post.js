@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import { Layout, Tag, Divider } from 'antd'
-import Comments from './Comments'
+import Utterances from './Utterances'
 import Content from './Content'
 import Tags from './Tags'
 import getCategoryColor from '../../utils/get-category-color'
@@ -48,7 +48,7 @@ const Post = ({ post, allCategories }) => {
       </div>
 
       <div className="mt-10">
-        <Comments postSlug={slug} postTitle={post.frontmatter.title} />
+        <Utterances repo="kookou/blogcomment" theme="preferred-color-scheme" />
       </div>
     </AntContent>
   )

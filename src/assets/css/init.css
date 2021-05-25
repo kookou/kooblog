@@ -185,3 +185,17 @@ blockquote {
   margin-inline-start: 20px;
   margin-inline-end: 20px;
 }
+
+.utterances {
+  max-width: 100% !important;
+}
+
+hr {
+  background-color: rgb(94, 94, 94);
+  color: rgb(94, 94, 94);
+  border-top-width: 0px;
+}
+
+.gatsby-resp-image-wrapper {
+  margin: 0;
+}

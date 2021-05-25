@@ -3,7 +3,7 @@ template: post
 title: Gatsby에 Disqus을 적용하여 댓글 붙이기
 slug: /blog/2021-05-13-gatsby-disqus
 draft: false
-priority: 0
+priority: 3
 date: 2021-05-12T22:22:02.039Z
 description:
 category: Blog

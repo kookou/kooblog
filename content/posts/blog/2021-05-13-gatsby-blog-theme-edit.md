@@ -3,7 +3,7 @@ template: post
 title: Gatsby 테마 커스텀 하기
 slug: /blog/2021-05-13-gatsby-blog-theme-edit
 draft: false
-priority: 0
+priority: 2
 date: 2021-05-12T22:22:02.039Z
 description:
 category: Blog
