@@ -106,7 +106,7 @@ const Feed = ({ edges, allCategories }) =>
           </Col>
         </Row>
 
-        <Divider className={`bg-gray-300 mb-0 mt-6 ${featured && 'invisible'}`} />
+        <Divider className={`bg-gray-300 mb-0 mt-6'}`} />
       </div>
     )
   })
