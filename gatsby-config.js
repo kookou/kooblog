@@ -102,7 +102,10 @@ module.exports = {
           {
             resolve: `gatsby-remark-vscode`,
             options: {
-              theme: `Dark (Visual Studio)`
+              theme: `High Contrast`,
+              inlineCode: {
+                marker: '•'
+              }
             }
           },
           {

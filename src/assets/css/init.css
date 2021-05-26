@@ -154,8 +154,8 @@ img {
 .ant-tag {
   margin: 3px !important;
 }
-.pre {
-  padding: 16px;
+pre {
+  margin-bottom: 30px !important;
 }
 
 .back {
@@ -290,4 +290,15 @@ tbody {
 }
 table tr:nth-child(2n) {
   background-color: rgb(245, 245, 245);
+}
+
+code.high-contrast {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px 3px 3px 3px;
+  border-radius: 5px;
+}
+
+.grvsc-line-number {
+  opacity: 0.4;
 }

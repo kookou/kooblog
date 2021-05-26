@@ -48,51 +48,50 @@ Discus 너무한다 방문자하나 없는 블로그에 광고가 댓글 위아�
 
 gatsby 는 React 기반이므로~ 다음과 같은 Utterances 컴포넌트를 작성한다.
 
-```javascript
-import React, { createRef, useLayoutEffect } from 'react';
+```tsx
+import React, { createRef, useLayoutEffect } from 'react'
 
-const src = 'https://utteranc.es/client.js';
+const src = 'https://utteranc.es/client.js'
 
 export interface IUtterancesProps {
-repo: string;
-theme: string;
+  repo: string
+  theme: string
 }
 
 const Utterances: React.FC<IUtterancesProps> = React.memo(({ repo, theme }) => {
-const containerRef = createRef<HTMLDivElement>();
+  const containerRef = createRef<HTMLDivElement>()
 
-useLayoutEffect(() => {
-const utterances = document.createElement('script');
+  useLayoutEffect(() => {
+    const utterances = document.createElement('script')
 
-      const attributes = {
+    const attributes = {
       src,
       repo,
       theme,
       'issue-term': 'pathname',
       label: '✨💬 comments ✨',
       crossOrigin: 'anonymous',
-      async: 'true',
-      };
+      async: 'true'
+    }
 
-      Object.entries(attributes).forEach(([key, value]) => {
-      utterances.setAttribute(key, value);
-      });
+    Object.entries(attributes).forEach(([key, value]) => {
+      utterances.setAttribute(key, value)
+    })
 
-      containerRef.current!.appendChild(utterances);
+    containerRef.current!.appendChild(utterances)
+  }, [repo])
 
-}, [repo]);
+  return <div ref={containerRef} />
+})
 
-return <div ref={containerRef} />;
-});
+Utterances.displayName = 'Utterances'
 
-Utterances.displayName = 'Utterances';
-
-export default Utterances;
+export default Utterances
 ```
 
 이후에 Utterances 컴포넌트를 호출하여 원하는 위치에 삽입하면 끝 !
 
-```javascript
+```tsx
 ...
 <Utterances repo='kookou/blogcomment' theme='github-light' />
 ```
