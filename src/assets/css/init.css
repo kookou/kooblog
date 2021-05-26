@@ -80,7 +80,7 @@ img {
 
 .post.post-featured {
   margin: 5px 0;
-  background: rgb(245, 245, 245);
+  /*background: rgb(245, 245, 245);*/
 }
 
 .featured-product {
@@ -229,15 +229,6 @@ hr {
   margin-bottom: 20px;
 }
 
-div.carbon > div.red {
-  border: 0px !important;
-}
-div.carbon > div.yellow {
-  border: 0px !important;
-}
-div.carbon > div.green {
-  border: 0px !important;
-}
 table {
   display: table !important;
   border-collapse: separate !important;

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Row, Col, Card } from 'antd'
+import { Row, Col, Card, Divider } from 'antd'
 import data from './data.json'
 
 const FeaturedProducts = () => {
