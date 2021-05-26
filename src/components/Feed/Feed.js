@@ -71,14 +71,11 @@ const Feed = ({ edges, allCategories }) =>
               <Col span={8}>
                 <Link to={categorySlug} className="">
                   <Tag
-                    className={`bg-${categoryColor} text-white border-transparent cursor-pointer px-4 py-1 rounded-full text-base font-semibold`}
+                    className={`bg-${categoryColor} text-white border-transparent cursor-pointer px-4 py-1 rounded-full text-base font-semibold fat-tag`}
                   >
                     {category}
                   </Tag>
                 </Link>
-              </Col>
-              <Col span={16} className="text-right">
-                {tags && tagSlugs && <Tags tags={tags} tagSlugs={tagSlugs} />}
               </Col>
             </Row>
             <h1 className="text-5xl mt-3 mb-0">
@@ -97,15 +94,17 @@ const Feed = ({ edges, allCategories }) =>
                 </Link>
               )}
             </h1>
-            <p className="text-gray-500 text-right">
+            <p className="text-gray-500">
               Posted{' '}
               <time dateTime={dayjs(date).format('MMMM D, YYYY')}>
                 {dayjs(date).fromNow()}
               </time>
             </p>
+            <Col span={24} className="text-right">
+              {tags && tagSlugs && <Tags tags={tags} tagSlugs={tagSlugs} />}
+            </Col>
           </Col>
         </Row>
-
         <Divider className={`bg-gray-300 mb-0 mt-6'}`} />
       </div>
     )

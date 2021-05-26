@@ -77,12 +77,12 @@ img {
 .post {
   padding: 4% 7% 0%;
 }
-
+/*
 .post.post-featured {
   margin: 5px 0;
-  /*background: rgb(245, 245, 245);*/
+  background: rgb(245, 245, 245);
 }
-
+*/
 .featured-product {
   background: transparent;
   color: #ddd;
@@ -200,14 +200,16 @@ hr {
 .pagenation_next {
   font-size: 15px;
   font-weight: 600;
-  margin-right: 83px;
+  /* margin-right: 83px; */
   margin-top: 20px;
+  right: 7%;
 }
 .pagenation_pre {
   font-size: 15px;
   font-weight: 600;
-  margin-left: 83px;
+  /* margin-left: 83px; */
   margin-top: 20px;
+  left: 7%;
 }
 
 .post.post-featured a {
@@ -296,4 +298,8 @@ code.high-contrast {
 
 ul > li {
   margin-bottom: 10px !important;
+}
+
+.fat-tag {
+  margin: 0 !important;
 }
