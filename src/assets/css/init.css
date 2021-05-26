@@ -302,3 +302,7 @@ code.high-contrast {
 .grvsc-line-number {
   color: #797979;
 }
+
+ul > li {
+  margin-bottom: 10px !important;
+}

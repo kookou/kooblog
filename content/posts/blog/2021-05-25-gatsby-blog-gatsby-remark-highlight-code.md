@@ -12,7 +12,7 @@ tags:
   - gatsby
 ---
 
-브로그를 작성할때 쓰는 Markdown엔 코드를 작성할때 사용하는 문법이 있다.  
+브로그를 post에 사용되는 Markdown엔 코드를 작성할때 사용하는 문법이 있다.  
 **일명 백틱 바로 &#96;&#96;&#96; 이다.**  
 백틱을 사용하면 백틱과 백틱 사이의 코드들이 &#60;code&gt; 태그안에 작성되는데 이 코드를 언어에 맞춰 보기좋게 보여주는 방법에 대해 알아보자.
 
@@ -31,7 +31,7 @@ npm 패키지 **gatsby-remark-highlight-code**
   ![](https://raw.githubusercontent.com/deckgo/gatsby-remark-highlight-code/master/static/screenshot-none.png)
   미리 정의 된 카드는 없지만 여러 CSS 변수로 스타일을 지정할 수 있다.
 
-## 사용방법
+## **사용방법**
 
 ### **패키지 설치**
 
@@ -80,8 +80,6 @@ plugins: [
 ]
 ```
 
-_추가 후 init 까먹지 말기로해_
-
 ### **페이지에 구성요소 로드 하기**
 
 페이지 또는 구성 요소 중 하나에 @ deckdeckgo/highlight-code를 한 번 로드한다.  
@@ -103,7 +101,7 @@ deckDeckGoHighlightElement()
 
 ### **테마 적용 방법**
 
-default 는 **carbon** 이며 **ubuntu**(Ubuntu와 유사한 컨테이너) , **none**(창 컨테이너 없음 )을 선택하여 사용할 수 있다.
+모양을 지정하는 terminal 옵션의 default는 **carbon** 이며 **ubuntu**(Ubuntu와 유사한 컨테이너) , **none**(창 컨테이너 없음 )을 선택하여 사용할 수 있다.
 
 ```js {numberLines}
 // In your gatsby-config.js
@@ -125,7 +123,7 @@ plugins: [
 ```
 
 **carbon** 은 다양한 테마를 지정하여 사용할 수 있다.  
-[@deckdeckgo/highlight-code](https://docs.deckdeckgo.com/?path=/story/components-highlight-code--highlight-code) 문서 에서 확인해보자
+[@deckdeckgo/highlight-code](https://docs.deckdeckgo.com/?path=/story/components-highlight-code--highlight-code) 에서 확인해보자
 
 ```js {numberLines}
 // In your gatsby-config.js
@@ -169,7 +167,7 @@ Gatsby Remark Vscode 는 이름 그대로 코드를 VScode 형식으로 보여�
 - 디자인
   ![](https://user-images.githubusercontent.com/3277153/56853802-5e847e00-68c8-11e9-8468-dedcd8bcab78.png)
 
-## 사용방법
+## **사용방법**
 
 ### **패키지 설치**
 

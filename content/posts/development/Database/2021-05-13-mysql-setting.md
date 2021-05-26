@@ -1,7 +1,7 @@
 ---
 template: post
 title: MySQL 다운로드 및 설치방법
-slug: development/Database/2021-05-13-mysql-setting
+slug: /development/Database/2021-05-13-mysql-setting
 draft: false
 priority: 0
 date: 2021-05-12T22:22:02.039Z

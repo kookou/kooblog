@@ -14,7 +14,7 @@ tags:
 
 ### **Disqus 에서 Utterances 로 바꾼다**
 
-Discus 너무한다 방문자하나 없는 블로그에 광고가 댓글 위아래로 붙었다.  
+Disqus 너무한다 방문자하나 없는 블로그에 광고가 댓글 위아래로 붙었다.  
 없애고 싶으면 한달에 11 달러를 지불하라고 한다.  
 안쓸게 👿
 
@@ -22,8 +22,7 @@ Discus 너무한다 방문자하나 없는 블로그에 광고가 댓글 위아�
 
 - **github에 댓글 관리를 위한 새로운 repository를 생성한다.**  
   새로운 repository를 생성하지 않고 자신이 사용하고있는 gitblog repository를 사용해도 무관하다.  
-  _이후 블로그에 댓글이 등록되면 issues에 업로드되기 때문!_
-
+  _이후 블로그에 댓글이 등록되면 repository의 issues에 업로드되기 때문!_
 - **Utterances app을 github 계정에 추가한다.**  
   [utterances github](github.com/apps/utterances)로 접속해 Only Select Repositories를 선택하여 댓글을 관리할 repository를 지정한후 install한다.
 
@@ -99,7 +98,7 @@ export default Utterances
 - **완성**
   ![](meida/../../../../static/media/utterances/04.jpg)
 
-참고
+출처
 
 Gatsby 블로그 - utterances 소셜 댓글 기능 도입하기 [Blausee](https://wwlee94.github.io/category/blog/getting-started-utterances/)  
 [Github 블로그] utterances 으로 댓글 기능 만들기 (+ disqus 비추후기) [공부하는 식빵맘](https://ansohxxn.github.io/blog/utterances/)
