@@ -56,25 +56,25 @@ Framework : 어떤 일을 할때 자주 사용되는 기능을 미리 준비해 
 
 - 장고 프로젝트 생성
 
-```
+```c {numberLines}
 //해당폴더에 생성
 django-admin startproject config .
 ```
 
 - runserver 포트변경
 
-```
+```c {numberLines}
 $ python manage.py runserver 8080
 ```
 
 - shell 실행
 
-```
+```c {numberLines}
 $ python manage.py shell
 ```
 
 - admin 생성
 
-```
+```c {numberLines}
 $ python manage.py createsuperuser
 ```

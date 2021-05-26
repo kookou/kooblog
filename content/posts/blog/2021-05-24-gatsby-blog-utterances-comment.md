@@ -48,7 +48,7 @@ Discus 너무한다 방문자하나 없는 블로그에 광고가 댓글 위아�
 
 gatsby 는 React 기반이므로~ 다음과 같은 Utterances 컴포넌트를 작성한다.
 
-```tsx
+```tsx {numberLines}
 import React, { createRef, useLayoutEffect } from 'react'
 
 const src = 'https://utteranc.es/client.js'
@@ -91,7 +91,7 @@ export default Utterances
 
 이후에 Utterances 컴포넌트를 호출하여 원하는 위치에 삽입하면 끝 !
 
-```tsx
+```tsx {numberLines}
 ...
 <Utterances repo='kookou/blogcomment' theme='github-light' />
 ```

@@ -19,29 +19,29 @@ tags:
 
 웹 사이트 디렉토리에서 다음 명령을 실행 하여 gatsby-plugin-disqus플러그인을 npm 과 함께 종속성으로 설치하십시오.
 
-```cmd
+```cmd {numberLines}
 npm install --save gatsby-plugin-disqus
 ```
 
 gatsby-config.js 에 Disqus 단축 이름으로 파일에 플러그인을 추가하십시오 .
 
-```react
+```tsx {numberLines}
 // gatsby-config.js
 module.exports = {
-    plugins: [
-        {
-            resolve: `gatsby-plugin-disqus`,
-            options: {
-                shortname: `kooblog`
-            }
-        },
-    ]
+  plugins: [
+    {
+      resolve: `gatsby-plugin-disqus`,
+      options: {
+        shortname: `kooblog`
+      }
+    }
+  ]
 }
 ```
 
 그런 다음 플러그인을 사용하여 다음 예제와 같이 페이지에 Disqus 주석 섹션을 배치 할 수 있습니다.
 
-```react
+```tsx {numberLines}
 import { Disqus } from 'gatsby-plugin-disqus';
 
 const Template = () => (
