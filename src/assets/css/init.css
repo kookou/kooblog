@@ -303,3 +303,10 @@ ul > li {
 .fat-tag {
   margin: 0 !important;
 }
+.post-body {
+  font-family: 'Noto Sans KR';
+  /*font-family: 'MyLotteLight';*/
+}
+main h1 {
+  font-family: 'GmarketSansMedium';
+}
