@@ -3,7 +3,7 @@ template: post
 title: Git Blog Post 작성을 위한 Markdown문법
 slug: /blog/2021-05-13-gatsby-blog-markdown
 draft: false
-priority: 1
+priority: 0
 date: 2021-05-12T22:22:02.039Z
 description:
 category: Blog

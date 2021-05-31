@@ -3,7 +3,7 @@ template: post
 title: Gatsby blog 에 code highlight 적용하기
 slug: /blog/2021-05-25-gatsby-blog-gatsby-remark-highlight-code
 draft: false
-priority: 4
+priority: 1
 date: 2021-05-25T22:22:02.039Z
 description:
 category: Blog
