@@ -24,7 +24,7 @@ Disqus 너무한다 방문자하나 없는 블로그에 광고가 댓글 위아�
   새로운 repository를 생성하지 않고 자신이 사용하고있는 gitblog repository를 사용해도 무관하다.  
   _이후 블로그에 댓글이 등록되면 repository의 issues에 업로드되기 때문!_
 - **Utterances app을 github 계정에 추가한다.**  
-  [utterances github](github.com/apps/utterances)로 접속해 Only Select Repositories를 선택하여 댓글을 관리할 repository를 지정한후 install한다.
+  [utterances github](https://github.com/apps/utterances)로 접속해 Only Select Repositories를 선택하여 댓글을 관리할 repository를 지정한후 install한다.
 
 - **Install 한후에 나오는 페이지를 작성한다.**  
    ![](meida/../../../../static/media/utterances/01.jpg)
