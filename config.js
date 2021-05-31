@@ -13,10 +13,6 @@ module.exports = {
     {
       label: 'Blog',
       path: '/'
-    },
-    {
-      label: 'CV',
-      path: '/cv'
     }
   ],
   author: {
