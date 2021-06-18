@@ -48,7 +48,7 @@ const Post = ({ post, allCategories }) => {
       </div>
 
       <div className="mt-10">
-        <Utterances repo="kookou/blogcomment" theme="preferred-color-scheme" />
+        <Utterances repo="kookou/comments" theme="preferred-color-scheme" />
       </div>
     </AntContent>
   )

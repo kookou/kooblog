@@ -1,7 +1,7 @@
 ---
 template: post
 title: Utterances로 블로그 댓글 사용하기
-slug: /blog/2021-05-24-gatsby-blog-utterances-comment
+slug: /blog/20210524_gatsby_blog_utterances_comment
 draft: false
 priority: 2
 date: 2021-05-24T22:22:02.039Z

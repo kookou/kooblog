@@ -309,4 +309,6 @@ ul > li {
 }
 main h1 {
   font-family: 'GmarketSansMedium';
+  /*text-align: center;*/
+  /*margin: 0 auto;*/
 }
