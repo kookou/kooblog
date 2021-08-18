@@ -1,6 +1,6 @@
 ---
 template: post
-title: SQL 명령어
+title: SQL 명령어 컬럼명으로 테이블찾기
 slug: /development/Database/2021-06-18-sql-commend
 draft: false
 priority: 0
