@@ -36,6 +36,12 @@ $ git push [리모트 저장소 이름] [브랜치 이름]
 $ git commit -m "[커밋설명]"
 ```
 
+- 강제커밋
+
+```js {numberLines}
+$ git push -f [리모트 저장소 이름]
+```
+
 - 커밋 취소 후 해당 파일 staged 상태로 working directory에 보존
 
 ```js {numberLines}
